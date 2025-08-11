@@ -24,7 +24,7 @@ Se utiliza cuando:
 
 ## Estructura
 
-![Diagrama UML Facade](./Facade_UML_class_diagram.svg.png)
+![Diagrama UML Facade](./descarga.png)
 
 ---
 
@@ -69,9 +69,8 @@ Imaginá que un usuario quiere reservar un paquete de viaje. Para hacerlo **sin 
 - Reservar un hotel en el módulo de alojamiento.
 - Contratar transporte en el módulo de alquiler de vehículos.
 - Pagar en el módulo de pagos.
-- Recibir información y confirmaciones desde varios sistemas diferentes.
-
-Este proceso es complejo, propenso a errores y difícil de manejar para el usuario o programador.
+- Recibir información y confirmaciones desde varios sistemas diferentes.  
+  Este proceso es complejo, propenso a errores y difícil de manejar para el usuario o programador.
 
 ---
 
