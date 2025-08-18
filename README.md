@@ -50,6 +50,14 @@ De esta forma, los clientes **no necesitan acceder directamente** a los objetos 
 - **Encapsulamiento:** Los cambios en las clases del subsistema sólo requieren modificaciones en la fachada.
 - **Simplicidad:** Los clientes no necesitan conocer las clases que hay detrás de la fachada.
 - **Reducción de dependencias:** El cliente sólo depende de la fachada, no del subsistema completo.
+  
+---
+
+##Desventajas
+-**Responsabilidad:** Puede concentrar demasiada responsabilidad si se usa para implementar la lógica del negocio en lugar de solo delegar.
+-**Oculta funcionalidades:** Oculta en exceso las funcionalidades internas, limitando la flexibilidad para operaciones avanzadas.
+-**Cuello de botella:** Puede convertirse en cuello de botella o punto único de fallo si todo pasa obligatoriamente por él.
+-**Acoplamiento:** Crea un acoplamiento fuerte entre clientes y la fachada, haciendo costoso el mantenimiento si cambia.
 
 ---
 
